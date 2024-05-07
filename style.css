@@ -1,0 +1,51 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(img/23143.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+.body{
+    width: 100%;
+    height: 100%;
+}
+.title{
+    height: 50px;
+    color: gold;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main{
+    width: 900px;
+   height: 700px;
+  background: red;
+    margin: auto;
+    margin-top: 200px;
+}
+.players{
+    width: inherit;
+    height: 150px;
+    background-color: aqua;
+}
+.tabp{
+    background-color: green;
+    width: inherit;
+    height: inherit;
+}
+.p{
+    width: 296px;
+    padding-top: 15px;
+    vertical-align: top;
+    text-align: center;
+}
+.users{
+    margin-top: 50px;
+}
+.buttons{
+    width: inherit;
+    height: 550px;
+    background-color: blueviolet;
+}
