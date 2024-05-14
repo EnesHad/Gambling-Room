@@ -38,8 +38,8 @@
                     <?php
                         
                         if($max==$_SESSION["p1Score"] && $max==$_SESSION["p2Score"]){echo 'Draw between player '.$_SESSION["p1"].' and player '.$_SESSION["p2"];}
-                        elseif($max==$_SESSION["p1Score"] && $max==$_SESSION["p3Score"]){echo 'Draw between player '.$_SESSION["p1"].' and player'.$_SESSION["p3"];}
-                        elseif($max==$_SESSION["p3Score"] && $max==$_SESSION["p2Score"]){echo 'Draw between player '.$_SESSION["p3"].' and player'.$_SESSION["p2"];}
+                        elseif($max==$_SESSION["p1Score"] && $max==$_SESSION["p3Score"]){echo 'Draw between player '.$_SESSION["p1"].' and player '.$_SESSION["p3"];}
+                        elseif($max==$_SESSION["p3Score"] && $max==$_SESSION["p2Score"]){echo 'Draw between player '.$_SESSION["p3"].' and player '.$_SESSION["p2"];}
                         elseif($max==$_SESSION["p1Score"]){echo 'Congratulations player '.$_SESSION["p1"].' you won!';}
                         elseif($max==$_SESSION["p2Score"]){echo 'Congratulations player '.$_SESSION["p2"].' you won!';}
                         elseif($max==$_SESSION["p3Score"]){echo 'Congratulations player '.$_SESSION["p3"].' you won!';}
@@ -47,6 +47,7 @@
                             echo 'ERROR NO WINERS';
                         }
                     ?>
+                    <br>
                 </div>
                 <div class="igralci" id="igralci">
                     <?php echo $_SESSION["p1"];  ?></br>
@@ -60,7 +61,7 @@
                     <?php echo $_SESSION["p3"];  ?></br>
                     <?php echo $_SESSION["p3Score"];  ?></br>
                 </div>
-                <div class="spodi" id="spodi">You will be redirected in <span id="time">10</span> seconds.</div>
+                <div class="dol" id="dol">You will be redirected in <span id="time">10</span> seconds.</div>
             </form>
         </div>
         </div>

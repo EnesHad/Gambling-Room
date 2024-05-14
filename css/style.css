@@ -21,7 +21,7 @@ body{
     width: 900px;
     height: 550px;
     margin: auto;
-    margin-top: 250px;
+    margin-top: 275px;
 }
 .cent{
     width: 1000px;
@@ -34,8 +34,8 @@ body{
     text-align: center;
     width: 700px;
     height: 250px;
-    background-color: #312943;
-    border: 5px solid #101010;
+    background-color: #efe8ec;
+    border: 5px solid #b1b1b1;
     border-radius: 15px;
     font-size: 35px;
 }
@@ -43,6 +43,7 @@ h1{
     font-size: 120px;
     text-align: center;
     color: #ab260c;
+    font-family: 'jer';
 }
 .kaj{
     height: 75px;
@@ -55,24 +56,35 @@ h1{
     overflow: hidden;
 }
 label{
-    color: #f5d91f;
+    color: #29271c;
+    font-family: jer;
 }
 .igralci{
     width: 150px;
     display: inline-block;
     text-align: center;
+    font-family: jer;
     font-size: 45px;
     margin-bottom: 15px;
     overflow: hidden;
-    color:#f5d91f
+    color:#29271c;
+}
+.vpis{
+    font-family: jer;
+    text-align: center;
+    color: #ab260c;
+    font-size: 20px;
 }
 #zmagovalec{
     width: 100%;
-    color:#f5d91f
+    color:#ab260c;
+    font-family: jer;
+    margin-bottom: 10px;
 }
 #kocke{
     margin-top: 25px;
     font-size: 45px;
+    
 }
 .izb{
     text-align: center;
@@ -87,18 +99,22 @@ label{
     width: 100%;
     height: 100%;
 }
-.spodi{
+.dol{
     text-align: center;
     font-size: 45px;
     width: 100%;
     border-radius: 7px;
-    color:#f5d91f
+    color:#29271c;
+    font-family: jer;
 }
-#spodi{
+.dol a{
+    color: #b1b1b1;
+}
+#dol{
     color: #ab260c !important;
 }
 #igralci{
-    color: #0b89d3 !important;
+    color: #29271c !important;
 }
 input, select{
     width: 170px;
@@ -111,28 +127,31 @@ input, select{
     margin:0 1px;
     border-radius:5px;
 }
+.izberi{
+    width: 50%;
+}
 
 .button-5 {
-    width: 150px;
+    width: 75px;
+    height: 45px;
   align-items: center;
   background-clip: padding-box;
-  background-color: #f5d91f;
-  
+  background-color: #b1b1b16e;
   border: 1px solid transparent;
   border-radius: .25rem;
   box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
   box-sizing: border-box;
-  color: #ab260c;
+  color: #e95e43;
   cursor: pointer;
   display: inline-flex;
-  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
+  
+  font-size: 25px;
   font-weight: bold;
   justify-content: center;
-  line-height: 1.25;
+  font-family: jer;
   margin: 0;
-  min-height: 3rem;
-  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  
+  padding: 2px;
   position: relative;
   text-decoration: none;
   transition: all 250ms;
@@ -140,12 +159,12 @@ input, select{
   -webkit-user-select: none;
   touch-action: manipulation;
   vertical-align: baseline;
-  width: auto;
 }
 
 .button-5:hover,
 .button-5:focus {
-  background-color: #fb8332;
+  background-color: #ab260c;
+  color: #29271c;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
@@ -157,4 +176,9 @@ input, select{
   background-color: #c85000;
   box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
   transform: translateY(0);
+}
+
+@font-face {
+    font-family: jer;
+    src: url(../bronco/b.ttf);
 }

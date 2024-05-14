@@ -62,7 +62,7 @@
                         echo "<img src='slike/dice".  $p3Met[$x]. ".gif' alt='dice1' class='kocke'>";
                     }?></br>
                 </div>
-                <div class=spodi>
+                <div class=dol>
                         <input class="button-5" type="submit" id="gumb" value="<?php if($_SESSION["stevVrz"]==$_SESSION["stevMet"]){echo 'Results';}else {echo 'Throw';}  ?>">
                     </br>
                         Throw: <?php echo $_SESSION["stevVrz"]  ?>
