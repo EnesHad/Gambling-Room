@@ -65,7 +65,7 @@
                 <div class=dol>
                         <input class="button-5" type="submit" id="gumb" value="<?php if($_SESSION["stevVrz"]==$_SESSION["stevMet"]){echo 'Results';}else {echo 'Throw';}  ?>">
                     </br>
-                        Throw: <?php echo $_SESSION["stevVrz"]  ?>
+                        Throw: <?php echo $_SESSION["stevVrz"]  ?>/<?php echo $_SESSION["stevMet"]  ?>
                 </div>
             </form>
         </div>
