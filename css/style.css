@@ -18,6 +18,7 @@ body{
     height: 100%;
 }
 .main{
+    
     width: 900px;
     height: 550px;
     margin: auto;
@@ -130,7 +131,15 @@ input, select{
 .izberi{
     width: 50%;
 }
-
+#fireworks {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    width: 130%;
+    height: 130%;
+    z-index: -1; 
+}
 .button-5 {
     width: 75px;
     height: 45px;

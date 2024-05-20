@@ -28,8 +28,11 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" type="image/x-icon" href="slike/vijola.png">
         <script src="js/konec.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js/jquery.fireworks.js"></script>
 	</head>
 	<body onload="redirTimer()">
+    <div id="fireworks"></div>
     <div class="main">
         <h1>Winner</h1>
         <div id="center">
